@@ -1,7 +1,7 @@
 ---
 # Apache Webserver 설치 후 구동하는 Ansible descript
 # AWS
-- name: apache install
+- name: apache install to aws
   hosts: webserver
   become: yes
   become_method: sudo
